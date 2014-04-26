@@ -1,0 +1,51 @@
+[
+    {
+        "name": "html5",
+        "trigger": "html5",
+        "usage": "html5",
+        "description": "Create an HTML5 page",
+        "template": "html5.snippet"
+    },
+    {
+        "name": "div",
+        "trigger": "d",
+        "usage": "d ",
+        "description": "Create a div",
+        "template": "<div>!!{cursor}</div>"
+    },
+    {
+        "name": "input",
+        "trigger": "ip",
+        "usage": "ip ",
+        "description": "Create an input",
+        "template": "<input type=\"!!{cursor}\" value=\"\" />"
+    },
+    {
+        "name": "button",
+        "trigger": "b",
+        "usage": "b ",
+        "description": "Create a button",
+        "template": "<button>!!{cursor}</button>"
+    },
+    {
+        "name": "h1",
+        "trigger": "h1",
+        "usage": "h1 ",
+        "description": "Create a header",
+        "template": "<h1>!!{cursor}</h1>"
+    },
+    {
+        "name": "script",
+        "trigger": "s",
+        "usage": "s ",
+        "description": "Create a script",
+        "template": "<script src=\"!!{cursor}\"></script>"
+    },
+    {
+        "name": "link",
+        "trigger": "a",
+        "usage": "a index.html home",
+        "description": "Create an achor with an href",
+        "template": "<a href=\"$${href}\">$${title}</a>"
+    }
+]
